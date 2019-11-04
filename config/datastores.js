@@ -46,6 +46,8 @@ module.exports.datastores = {
      *                                                                          *
      ***************************************************************************/
     adapter: 'sails-mongo',
-    url: 'mongodb://root:123456@localhost:27017/my_app'
+    // url: 'mongodb://root:123456@localhost:27017/my_app'
+    url: 'mongodb://pmhoang94:p28m01h94@cluster0-shard-00-00-t1hlx.gcp.mongodb.net:27017,cluster0-shard-00-01-t1hlx.gcp.mongodb.net:27017,cluster0-shard-00-02-t1hlx.gcp.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority'
+    // mongodb+srv://pmhoang94:p28m01h94@cluster0-t1hlx.gcp.mongodb.net/test?retryWrites=true&w=majority
   }
 }
